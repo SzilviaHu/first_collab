@@ -1,0 +1,22 @@
+header {
+    grid-area: h
+}
+
+nav {
+    grid-area: n
+}
+
+
+article {
+    grid-area: ar
+}
+
+
+aside {
+    grid-area: as
+}
+
+
+footer {
+    grid-area: f
+}
