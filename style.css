@@ -1,7 +1,4 @@
-/*Tags*/
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+/* Oldalelrendezés és reszponzivitás Szilvia */
 
 header {
     grid-area: h
@@ -24,4 +21,26 @@ aside {
 
 footer {
     grid-area: f
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas: "n n"
+    "h h"
+    "as ar"
+    "f f"
+}
+
+@media screen and (max-width: 600px) {
+
+    main {
+        grid-template-columns: 1fr;
+        grid-template-areas: "n"
+        "h"
+        "as"
+        "ar"
+        "f";
+    }
+    
 }
