@@ -22,7 +22,7 @@ nav {
 nav ul {
     display: grid; /*menu structure*/
     list-style-type: none;
-    grid-template-columns: minmax(128px, 1fr);
+    grid-template-columns: 128px 128px 128px;
 }
 
 /*Menu responsivity*/
